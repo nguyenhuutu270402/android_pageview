@@ -22,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             app:tabTextAppearance="@style/TabLayoutTextAppearance"
+            app:tabSelectedTextAppearance="@style/TabLayoutTextAppearance"
             android:background="@color/transparent"
             app:tabIndicator="@drawable/bg_indicator_tablayout"
             app:tabIndicatorAnimationMode="elastic"
