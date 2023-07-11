@@ -13,4 +13,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="TabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item> <!-- Không viết hoa -->
+        <item name="android:textSize">14sp</item> <!-- Kích thước văn bản (14sp) -->
+    </style>
 </resources>
