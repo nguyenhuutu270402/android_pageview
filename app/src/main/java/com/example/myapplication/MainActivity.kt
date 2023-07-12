@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.viewpager2.widget.ViewPager2
 import com.example.myapplication.adapter.FragmentPageAdapter
 import com.google.android.material.tabs.TabLayout
@@ -48,5 +49,11 @@ class MainActivity : AppCompatActivity() {
                 tabLayout.selectTab(tabLayout.getTabAt(position))
             }
         })
+
     }
+
+    fun showToast(message: String) {
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+    }
+
 }

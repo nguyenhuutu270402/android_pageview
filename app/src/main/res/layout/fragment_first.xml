@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
-    tools:context=".fragments.FirstFragment">
+    android:orientation="vertical"
+    android:background="@color/black">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:textSize="30dp"
+        android:textColor="@color/white"
         android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button2"/>
+
+</LinearLayout>
